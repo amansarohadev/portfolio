@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../lib/firebase';
-import { getAnalytics } from '../lib/analytics';
-import { Eye, Download, Mail, LogOut, TrendingUp, Clock, ArrowLeft } from 'lucide-react';
+import { getAnalytics, deleteMessage } from '../lib/analytics';
+import { Eye, Download, Mail, LogOut, TrendingUp, Clock, ArrowLeft, Trash2 } from 'lucide-react';
 
 const googleProvider = new GoogleAuthProvider();
 
@@ -263,9 +263,26 @@ const Admin = () => {
                                             </div>
                                             <p className="text-white/60 text-sm">{msg.message}</p>
                                         </div>
-                                        <div className="text-white/30 text-xs flex items-center gap-1">
-                                            <Clock size={12} />
-                                            {msg.timestamp?.toDate?.()?.toLocaleDateString() || 'Unknown'}
+                                        <div className="flex items-center gap-3">
+                                            <div className="text-white/30 text-xs flex items-center gap-1">
+                                                <Clock size={12} />
+                                                {msg.timestamp?.toDate?.()?.toLocaleDateString() || 'Unknown'}
+                                            </div>
+                                            <button
+                                                onClick={async () => {
+                                                    if (window.confirm('Delete this message?')) {
+                                                        await deleteMessage(msg.id);
+                                                        setAnalytics(prev => ({
+                                                            ...prev,
+                                                            messages: prev.messages.filter(m => m.id !== msg.id)
+                                                        }));
+                                                    }
+                                                }}
+                                                className="p-2 text-white/30 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors"
+                                                title="Delete message"
+                                            >
+                                                <Trash2 size={16} />
+                                            </button>
                                         </div>
                                     </div>
                                 </div>

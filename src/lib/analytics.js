@@ -1,6 +1,6 @@
 // Analytics tracking utilities
 import { db } from './firebase';
-import { collection, addDoc, getDocs, query, orderBy, where, Timestamp, increment, doc, setDoc, getDoc } from 'firebase/firestore';
+import { collection, addDoc, getDocs, deleteDoc, query, orderBy, Timestamp, doc, setDoc, getDoc } from 'firebase/firestore';
 
 // Track page view
 export const trackPageView = async (page = 'home') => {
@@ -98,5 +98,16 @@ export const getAnalytics = async () => {
     } catch (error) {
         console.error('Error getting analytics:', error);
         return { totalViews: 0, totalDownloads: 0, messages: [], dailyData: [], unreadMessages: 0 };
+    }
+};
+
+// Delete a message (for admin)
+export const deleteMessage = async (messageId) => {
+    try {
+        await deleteDoc(doc(db, 'messages', messageId));
+        return { success: true };
+    } catch (error) {
+        console.error('Error deleting message:', error);
+        return { success: false, error: error.message };
     }
 };
