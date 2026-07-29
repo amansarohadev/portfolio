@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
             <span className="line-2"><span className="gradient-text">that scale.</span></span>
           </h1>
 
-          <div className="hero-role">Full-Stack Developer & Cloud Engineer</div>
+          <div className="hero-role">Full-Stack Developer & Database Specialist</div>
 
           <p className="hero-description">
             I don't just write code — I <strong>obsess over what's under the hood</strong>. 

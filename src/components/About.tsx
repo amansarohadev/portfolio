@@ -15,7 +15,7 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text reveal">
             <p className="about-intro">
-              I'm a Full-Stack Developer and Cloud Database Engineer who obsesses over performance, scalability, and clean architecture. I don't just write code — I build systems that actually work at scale.
+              I'm a Full-Stack Developer and Relational Database Architect who obsesses over performance, scalability, and clean architecture. I don't just write code — I build systems that actually work at scale.
             </p>
 
             <p>
