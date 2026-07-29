@@ -3,68 +3,63 @@ import { ExternalLink } from 'lucide-react';
 
 const projectData = [
   {
-    title: 'Full-Stack E-Commerce Platform',
-    context: 'A growing retail business needed to modernize their online presence to handle increased traffic and improve customer experience.',
-    challenge: 'Legacy system was slow, could not handle peak loads, and lacked real-time inventory management.',
-    approach: 'Built from scratch using Next.js for frontend, Node.js/Express for backend, and PostgreSQL for database. Implemented Redis caching and Stripe integration.',
-    solution: 'Complete e-commerce platform with real-time inventory, secure payments, admin dashboard, and mobile-responsive design.',
-    results: 'Reduced page load time by 60%, increased conversion rate by 34%, and handled 10x traffic during peak seasons.',
-    tech: ['React', 'Next.js', 'Node.js', 'PostgreSQL', 'Stripe', 'Redis'],
+    title: 'Discover India Web Platform',
+    context: 'A modern web application showcasing the rich culture, history, and beauty of India.',
+    challenge: 'Creating a highly responsive, visual, and fast-loading web interface using clean semantic layout principles without external CSS frameworks.',
+    approach: 'Built from scratch utilizing HTML5, custom CSS3, Flexbox/Grid, and responsive design best practices.',
+    solution: 'Interactive frontend platform with smooth layouts, cross-device compatibility, and structured content sections.',
+    results: 'Clean semantic codebase with 100% custom styling, fast page load speeds, and intuitive user navigation.',
+    tech: ['HTML5', 'CSS3', 'Flexbox', 'Responsive Design'],
     links: {
-      live: '#',
-      github: '#'
+      github: 'https://github.com/amansarohadev/discover-india'
     }
   },
   {
-    title: 'Cloud Database Optimization Tool',
-    context: 'Enterprise clients were struggling with Azure SQL database performance issues and lacked visibility into query optimization.',
-    challenge: 'Manual query analysis was time-consuming and required deep expertise that was not always available.',
-    approach: 'Developed a monitoring tool using Python and Azure APIs with real-time query analysis and ML-based optimization suggestions.',
-    solution: 'Automated performance monitoring platform with execution plan analysis, indexing recommendations, and alert system.',
-    results: 'Reduced database troubleshooting time by 70% and improved query performance by an average of 45% for clients.',
-    tech: ['Python', 'Azure SQL', 'FastAPI', 'React', 'Machine Learning'],
+    title: 'Full-Stack Development Hub',
+    context: 'Interactive full-stack web applications and backend API integrations built during modern web engineering development.',
+    challenge: 'Building scalable full-stack features, dynamic state handling, and structured REST API routes.',
+    approach: 'Developed using modern JavaScript (ES6+), Node.js, Express.js backend API routes, and clean modular components.',
+    solution: 'Production-ready web modules featuring user interaction, dynamic data rendering, and backend integration.',
+    results: 'Solid full-stack architecture demonstrating frontend component state management combined with RESTful API backends.',
+    tech: ['JavaScript (ES6+)', 'Node.js', 'Express.js', 'REST APIs', 'HTML5/CSS3'],
     links: {
-      live: '#',
-      github: '#'
+      github: 'https://github.com/amansarohadev/full-stack-developer'
     }
   },
   {
-    title: 'Web3 Token Dashboard',
-    context: 'Cryptocurrency investors needed a better way to track their Internet Computer (ICP) token investments across multiple wallets.',
-    challenge: 'Existing tools were fragmented, lacked real-time updates, and did not support ICP ecosystem tokens.',
-    approach: 'Built a decentralized dashboard using React and ICP blockchain integration with real-time price feeds and portfolio tracking.',
-    solution: 'Comprehensive dashboard with multi-wallet support, real-time price updates, portfolio analytics, and transaction history.',
-    results: 'Launched with 500+ active users in first month, handling 50,000+ API calls daily with 99.9% uptime.',
-    tech: ['React', 'ICP', 'Rust', 'TypeScript', 'Web3'],
+    title: 'SQL Mastery & Database Architecture Portfolio',
+    context: 'Enterprise database query engineering focusing on complex data modeling and query optimization.',
+    challenge: 'Solving high-workload database bottlenecks, unoptimized multi-table JOINs, and complex data aggregations.',
+    approach: 'Engineered advanced T-SQL, PostgreSQL, and MySQL queries utilizing Common Table Expressions (CTEs), Window Functions, and strategic indexing.',
+    solution: 'Comprehensive SQL architecture repository tackling real-world business scenarios and query execution optimization.',
+    results: 'Drastically improved query execution times, reduced CPU/IO overhead, and clean relational database logic.',
+    tech: ['T-SQL', 'PostgreSQL', 'MySQL', 'CTEs', 'Window Functions', 'Indexing'],
     links: {
-      live: '#',
-      github: '#'
+      github: 'https://github.com/amansarohadev/sql-mastery-portfolio'
     }
   },
   {
-    title: 'AI-Powered Code Review Assistant',
-    context: 'Development teams were spending significant time on code reviews with inconsistent quality and missed security vulnerabilities.',
-    challenge: 'Manual code reviews were slow, inconsistent, and often missed critical security issues and performance problems.',
-    approach: 'Built an AI-powered tool using TensorFlow for code analysis, with custom rules for security patterns and performance optimization.',
-    solution: 'Automated code review platform with real-time feedback, security vulnerability detection, and performance suggestions.',
-    results: 'Reduced code review time by 50%, caught 40% more security issues, and improved code quality scores by 35%.',
-    tech: ['Python', 'TensorFlow', 'FastAPI', 'React', 'NLP'],
+    title: 'Relational HR Database Architecture',
+    context: 'Enterprise-grade relational database design and analytical reporting schema.',
+    challenge: 'Designing normalized relational tables, implementing efficient indexes, and optimizing analytical queries for dashboard consumption.',
+    approach: 'Modeled relational schemas from scratch in MySQL, incorporating foreign key constraints, analytical views, and CTEs.',
+    solution: 'High-performance HR relational system capable of handling complex employee data queries seamlessly.',
+    results: 'Achieved optimal schema normalization (3NF) with optimized index scanning for instant data retrieval.',
+    tech: ['MySQL', 'Database Design', 'Indexing', 'Views', 'SQL'],
     links: {
-      live: '#',
-      github: '#'
+      github: 'https://github.com/amansarohadev/hr-analytics-mysql'
     }
   },
   {
-    title: 'Real-Time Collaboration Platform',
-    context: 'Remote teams needed better tools for real-time collaboration on documents and projects with integrated communication.',
-    challenge: 'Existing tools were either too complex or lacked the real-time features needed for effective remote collaboration.',
-    approach: 'Built a collaborative platform using WebSockets for real-time updates, with integrated video conferencing and project management.',
-    solution: 'All-in-one collaboration platform with real-time document editing, video calls, task management, and team chat.',
-    results: 'Adopted by 20+ teams, reduced meeting times by 30%, and improved project completion rates by 25%.',
-    tech: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'WebRTC'],
+    title: 'Web Data Scraping & Automation Pipeline',
+    context: 'Automated data extraction pipeline to harvest unstructured web data into structured datasets.',
+    challenge: 'Handling dynamic HTML changes, request throttling, rate limiting, and broken scraping connections.',
+    approach: 'Built resilient Python scrapers using BeautifulSoup, Requests, and Pandas with custom exception handling and request delays.',
+    solution: 'End-to-end web data pipeline that extracts, parses, cleans, and exports structured datasets automatically.',
+    results: 'Automated 100% of data extraction tasks with high fault tolerance and clean tabular outputs.',
+    tech: ['Python', 'BeautifulSoup', 'Requests', 'Pandas', 'Automation'],
     links: {
-      live: '#',
-      github: '#'
+      github: 'https://github.com/amansarohadev/web-scraping'
     }
   }
 ];
@@ -76,13 +71,13 @@ const Projects: React.FC = () => {
         <div className="section-header reveal">
           <div className="section-label">What I've Built</div>
           <h2 className="section-title">
-            Featured <span className="gradient-text">Case Studies</span>
+            Featured <span className="gradient-text">Engineering Projects</span>
           </h2>
         </div>
 
         <div className="projects-grid">
           {projectData.map((project, index) => (
-            <div className={`project-card reveal reveal-delay-${index + 1}`} key={project.title}>
+            <div className={`project-card reveal reveal-delay-${(index % 3) + 1}`} key={project.title}>
               <div className="project-content">
                 <h3>{project.title}</h3>
                 
@@ -118,11 +113,8 @@ const Projects: React.FC = () => {
                 </div>
 
                 <div className="project-links">
-                  <a href={project.links.live} className="project-link" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={16} /> Live Demo
-                  </a>
                   <a href={project.links.github} className="project-link" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={16} /> GitHub
+                    <ExternalLink size={16} /> View GitHub Repo
                   </a>
                 </div>
               </div>

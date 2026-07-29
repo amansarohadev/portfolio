@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
         <div className="footer-links">
           <a href="https://linkedin.com/in/amansarohadev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/amansarohadev" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://twitter.com/amansarohadev" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+          <a href="https://instagram.com/amansaroha98" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
         <p>Designed & Built by Aman · {new Date().getFullYear()}</p>
       </footer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn, FaGithub, FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa6';
 
 const SocialDock: React.FC = () => {
   return (
@@ -10,8 +10,8 @@ const SocialDock: React.FC = () => {
       <a href="https://github.com/amansarohadev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <FaGithub size={16} />
       </a>
-      <a href="https://twitter.com/amansarohadev" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
-        <FaXTwitter size={16} />
+      <a href="https://instagram.com/amansaroha98" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <FaInstagram size={16} />
       </a>
     </div>
   );

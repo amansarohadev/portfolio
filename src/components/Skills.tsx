@@ -2,29 +2,29 @@ import React from 'react';
 
 const skillData = [
   {
-    icon: '🛢️',
-    title: 'Databases & Cloud',
-    tags: ['Azure SQL', 'PostgreSQL', 'SQL Server', 'Query Optimization', 'DMVs', 'Query Store', 'Indexing Strategies', 'Execution Plans', 'Data Modeling'],
+    icon: '💻',
+    title: 'Frontend Engineering',
+    tags: ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Flexbox & Grid', 'Responsive Design'],
   },
   {
     icon: '⚙️',
     title: 'Backend Engineering',
-    tags: ['Node.js', 'Express.js', 'JavaScript ES6+', 'Python', 'REST APIs', 'Web Scraping', 'NPM'],
+    tags: ['Node.js', 'Express.js', 'RESTful APIs', 'Python', 'NPM', 'Asynchronous JS', 'Middleware Architecture'],
   },
   {
-    icon: '🎨',
-    title: 'Frontend Engineering',
-    tags: ['React.js', 'Next.js', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'SSR / SSG', 'App Router'],
+    icon: '🛢️',
+    title: 'Databases & SQL',
+    tags: ['Azure SQL Database', 'PostgreSQL', 'MySQL', 'SQL Server', 'CTEs & Window Functions', 'Query Optimization', 'DMVs & Query Store', 'Indexing Strategies'],
   },
   {
     icon: '🔒',
-    title: 'Security & DevOps',
-    tags: ['OAuth 2.0', 'Passport.js', 'bcrypt', 'Session Management', 'Git & GitHub', 'Linux CLI', 'API Integrations'],
+    title: 'Security & Auth',
+    tags: ['OAuth 2.0', 'Passport.js', 'bcrypt', 'Session Management', 'Web Security', 'API Protection'],
   },
   {
-    icon: '🔗',
-    title: 'Web3 & Blockchain',
-    tags: ['Internet Computer (ICP)', 'Smart Contracts', 'Token Logic', 'NFT Minting', 'Blockchain Fundamentals'],
+    icon: '🛠️',
+    title: 'Tools & Workflows',
+    tags: ['Git & GitHub', 'VS Code', 'Postman', 'Linux / Command Line', 'Azure Data Factory', 'Vercel Deployment'],
   },
 ];
 
