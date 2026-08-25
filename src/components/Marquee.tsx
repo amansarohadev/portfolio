@@ -1,10 +1,10 @@
 import React from 'react';
 
 const techs = [
-  'React.js', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Azure SQL',
-  'Express.js', 'Python', 'OAuth 2.0', 'MySQL', 'Git', 'REST APIs',
-  'React.js', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Azure SQL',
-  'Express.js', 'Python', 'OAuth 2.0', 'MySQL', 'Git', 'REST APIs',
+  'C', 'C++', 'Node.js', 'TypeScript', 'PostgreSQL', 'REST APIs',
+  'Express.js', 'SQL', 'OAuth 2.0', 'MySQL', 'Git', 'Azure SQL',
+  'C', 'C++', 'Node.js', 'TypeScript', 'PostgreSQL', 'REST APIs',
+  'Express.js', 'SQL', 'OAuth 2.0', 'MySQL', 'Git', 'Azure SQL',
 ];
 
 const Marquee: React.FC = () => {

@@ -3,35 +3,23 @@ import { ExternalLink } from 'lucide-react';
 
 const projectData = [
   {
-    title: 'Discover India Web Platform',
-    context: 'A modern web application showcasing the rich culture, history, and beauty of India.',
-    challenge: 'Creating a highly responsive, visual, and fast-loading web interface using clean semantic layout principles without external CSS frameworks.',
-    approach: 'Built from scratch utilizing HTML5, custom CSS3, Flexbox/Grid, and responsive design best practices.',
-    solution: 'Interactive frontend platform with smooth layouts, cross-device compatibility, and structured content sections.',
-    results: 'Clean semantic codebase with 100% custom styling, fast page load speeds, and intuitive user navigation.',
-    tech: ['HTML5', 'CSS3', 'Flexbox', 'Responsive Design'],
-    links: {
-      github: 'https://github.com/amansarohadev/discover-india'
-    }
-  },
-  {
-    title: 'Full-Stack Development Hub',
-    context: 'Interactive full-stack web applications and backend API integrations built during modern web engineering development.',
-    challenge: 'Building scalable full-stack features, dynamic state handling, and structured REST API routes.',
-    approach: 'Developed using modern JavaScript (ES6+), Node.js, Express.js backend API routes, and clean modular components.',
-    solution: 'Production-ready web modules featuring user interaction, dynamic data rendering, and backend integration.',
-    results: 'Solid full-stack architecture demonstrating frontend component state management combined with RESTful API backends.',
-    tech: ['JavaScript (ES6+)', 'Node.js', 'Express.js', 'REST APIs', 'HTML5/CSS3'],
+    title: 'Backend API & Web Engineering Hub',
+    context: 'Backend-driven web applications with REST API development, server-side routing, and database integration.',
+    challenge: 'Designing scalable API architectures, handling authentication flows, and structuring modular backend codebases.',
+    approach: 'Built using Node.js and Express.js with structured REST API routes, middleware patterns, and clean separation of concerns.',
+    solution: 'Production-ready backend modules featuring RESTful endpoints, dynamic data handling, and secure API patterns.',
+    results: 'Solid backend architecture demonstrating API design, route handling, middleware composition, and server-side logic.',
+    tech: ['Node.js', 'Express.js', 'REST APIs', 'JavaScript (ES6+)'],
     links: {
       github: 'https://github.com/amansarohadev/full-stack-developer'
     }
   },
   {
-    title: 'SQL Mastery & Database Architecture Portfolio',
-    context: 'Enterprise database query engineering focusing on complex data modeling and query optimization.',
+    title: 'SQL Mastery & Database Engineering Portfolio',
+    context: 'Enterprise database engineering focusing on complex data modeling, query architecture, and performance optimization.',
     challenge: 'Solving high-workload database bottlenecks, unoptimized multi-table JOINs, and complex data aggregations.',
-    approach: 'Engineered advanced T-SQL, PostgreSQL, and MySQL queries utilizing Common Table Expressions (CTEs), Window Functions, and strategic indexing.',
-    solution: 'Comprehensive SQL architecture repository tackling real-world business scenarios and query execution optimization.',
+    approach: 'Engineered advanced T-SQL, PostgreSQL, and MySQL queries utilizing CTEs, Window Functions, and strategic indexing.',
+    solution: 'Comprehensive SQL engineering repository tackling real-world business scenarios and query execution optimization.',
     results: 'Drastically improved query execution times, reduced CPU/IO overhead, and clean relational database logic.',
     tech: ['T-SQL', 'PostgreSQL', 'MySQL', 'CTEs', 'Window Functions', 'Indexing'],
     links: {
@@ -54,12 +42,24 @@ const projectData = [
     title: 'Web Data Scraping & Automation Pipeline',
     context: 'Automated data extraction pipeline to harvest unstructured web data into structured datasets.',
     challenge: 'Handling dynamic HTML changes, request throttling, rate limiting, and broken scraping connections.',
-    approach: 'Built resilient Python scrapers using BeautifulSoup, Requests, and Pandas with custom exception handling and request delays.',
-    solution: 'End-to-end web data pipeline that extracts, parses, cleans, and exports structured datasets automatically.',
+    approach: 'Built resilient scrapers using Python, BeautifulSoup, and Pandas with custom exception handling and request delays.',
+    solution: 'End-to-end data pipeline that extracts, parses, cleans, and exports structured datasets automatically.',
     results: 'Automated 100% of data extraction tasks with high fault tolerance and clean tabular outputs.',
     tech: ['Python', 'BeautifulSoup', 'Requests', 'Pandas', 'Automation'],
     links: {
       github: 'https://github.com/amansarohadev/web-scraping'
+    }
+  },
+  {
+    title: 'Discover India Web Platform',
+    context: 'A structured web application showcasing the culture, history, and geography of India through clean semantic architecture.',
+    challenge: 'Building a performant, responsive content platform from scratch without external frameworks or CSS libraries.',
+    approach: 'Engineered from the ground up using HTML5 semantic markup, custom CSS3 architecture, and structured content organization.',
+    solution: 'Content-driven platform with clean code structure, cross-device compatibility, and optimized load performance.',
+    results: 'Fully custom codebase with zero dependencies, fast page loads, and maintainable content architecture.',
+    tech: ['HTML5', 'CSS3', 'Responsive Design'],
+    links: {
+      github: 'https://github.com/amansarohadev/discover-india'
     }
   }
 ];
@@ -114,7 +114,7 @@ const Projects: React.FC = () => {
 
                 <div className="project-links">
                   <a href={project.links.github} className="project-link" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={16} /> View GitHub Repo
+                    <ExternalLink size={14} /> View Repo
                   </a>
                 </div>
               </div>

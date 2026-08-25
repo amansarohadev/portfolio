@@ -15,15 +15,15 @@ const About: React.FC = () => {
         <div className="about-content">
           <div className="about-text reveal">
             <p className="about-intro">
-              I'm a Full-Stack Developer and Relational Database Architect who obsesses over performance, scalability, and clean architecture. I don't just write code — I build systems that actually work at scale.
+              I'm a Backend Engineer and Software Developer who obsesses over performance, scalability, and clean architecture. I don't just write code — I build systems that actually work at scale.
             </p>
 
             <p>
-              My journey started with a curiosity about how things work under the hood. From query execution plans to React component trees, I've always been drawn to understanding the deeper mechanics of technology. This obsession with fundamentals has shaped my approach to engineering — I don't settle for solutions that "just work," I build solutions that work efficiently, reliably, and at scale.
+              My journey started with a curiosity about how things work under the hood. From API design patterns to database internals, I've always been drawn to understanding the deeper mechanics of technology. This obsession with fundamentals has shaped my approach to engineering — I don't settle for solutions that "just work," I build solutions that work efficiently, reliably, and at scale.
             </p>
 
             <p>
-              Currently, I'm focused on building production-ready applications using modern technologies like React, Next.js, Node.js, and cloud databases. I have deep expertise in database optimization, having worked as an Azure SQL Database Support Engineer where I diagnosed and resolved complex performance issues for enterprise clients.
+              Currently, I'm focused on building production-grade backend systems using Node.js, Express.js, and PostgreSQL — with clean REST APIs, robust authentication, and well-structured databases. I have deep expertise in database optimization, having worked as an Azure SQL Database Support Engineer where I diagnosed and resolved complex performance issues for enterprise clients.
             </p>
 
             <div className="about-highlights">
@@ -51,7 +51,7 @@ const About: React.FC = () => {
               <div className="highlight-item">
                 <div className="highlight-icon">🔧</div>
                 <div className="highlight-content">
-                  <h4>Full-Stack Perspective</h4>
+                  <h4>Clean Code Advocate</h4>
                 </div>
               </div>
             </div>

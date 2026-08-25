@@ -18,13 +18,13 @@ const Experience: React.FC = () => {
               <span className="exp-type">Remote · Self-Employed</span>
             </div>
             <div className="exp-content">
-              <h3>Full-Stack Developer & Database Specialist</h3>
+              <h3>Backend Engineer & Software Developer</h3>
               <span className="exp-company">Independent Engineering Practice</span>
               <ul className="exp-list">
-                <li>Architected production-ready full-stack web applications using React.js, Next.js (App Router), and Node.js/Express.js with secure authentication patterns.</li>
-                <li>Designed and optimized relational database schemas in PostgreSQL and MySQL, engineering advanced CTEs, window functions, and execution plans.</li>
-                <li>Built robust Python web scraping and automation pipelines to harvest and transform unstructured data into relational datasets.</li>
-                <li>Developed modular frontend interfaces and API components adhering to modern JavaScript (ES6+), TypeScript, and responsive design standards.</li>
+                <li>Designed and built RESTful APIs using Node.js and Express.js with clean route architecture, middleware patterns, and secure authentication flows (OAuth 2.0, Passport.js).</li>
+                <li>Engineered and optimized relational database schemas in PostgreSQL and MySQL — advanced CTEs, window functions, indexing strategies, and execution plan analysis.</li>
+                <li>Built automated data extraction pipelines using Python to harvest, transform, and structure unstructured web data into relational datasets.</li>
+                <li>Developed production-grade web applications with TypeScript, focusing on clean code, modular architecture, and maintainable codebases.</li>
               </ul>
             </div>
           </div>

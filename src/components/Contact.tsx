@@ -11,8 +11,8 @@ const Contact: React.FC = () => {
           <span className="gradient-text">extraordinary.</span>
         </h2>
         <p>
-          Whether you need a database expert, a full-stack developer, or someone who can
-          do both — I'm always open to discussing new opportunities and interesting projects.
+          Whether you need a backend engineer, a database specialist, or someone who writes
+          clean, scalable code — I'm always open to discussing new opportunities and interesting projects.
         </p>
         <a href="mailto:amansarohadev@gmail.com" className="contact-email">
           <Mail size={18} />

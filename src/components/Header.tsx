@@ -10,7 +10,6 @@ const Nav: React.FC<NavProps> = ({ onContactClick }) => {
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
 
   useEffect(() => {
-    // Check system preference on mount
     const systemTheme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
     setTheme(systemTheme);
     document.documentElement.setAttribute('data-theme', systemTheme);
@@ -39,10 +38,10 @@ const Nav: React.FC<NavProps> = ({ onContactClick }) => {
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
-          {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+          {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
         </button>
         <a href="mailto:amansarohadev@gmail.com" className="nav-cta" onClick={(e) => { e.preventDefault(); onContactClick(); }}>
-          <Mail size={16} /> Let's Talk
+          <Mail size={14} /> Let's Talk
         </a>
       </div>
     </nav>

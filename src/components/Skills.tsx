@@ -3,28 +3,23 @@ import React from 'react';
 const skillData = [
   {
     icon: '💻',
-    title: 'Frontend Engineering',
-    tags: ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'Flexbox & Grid', 'Responsive Design'],
+    title: 'Languages',
+    tags: ['C', 'C++', 'JavaScript (ES6+)', 'TypeScript', 'SQL'],
   },
   {
     icon: '⚙️',
-    title: 'Backend Engineering',
-    tags: ['Node.js', 'Express.js', 'RESTful APIs', 'Python', 'NPM', 'Asynchronous JS', 'Middleware Architecture'],
+    title: 'Backend',
+    tags: ['Node.js', 'Express.js', 'REST APIs', 'API Development', 'OAuth 2.0', 'Passport.js', 'Middleware Architecture', 'Authentication'],
   },
   {
     icon: '🛢️',
-    title: 'Databases & SQL',
-    tags: ['Azure SQL Database', 'PostgreSQL', 'MySQL', 'SQL Server', 'CTEs & Window Functions', 'Query Optimization', 'DMVs & Query Store', 'Indexing Strategies'],
-  },
-  {
-    icon: '🔒',
-    title: 'Security & Auth',
-    tags: ['OAuth 2.0', 'Passport.js', 'bcrypt', 'Session Management', 'Web Security', 'API Protection'],
+    title: 'Databases',
+    tags: ['PostgreSQL', 'MySQL', 'SQL Server', 'Azure SQL Database', 'Query Optimization', 'Indexing Strategies', 'CTEs & Window Functions', 'DMVs & Query Store'],
   },
   {
     icon: '🛠️',
-    title: 'Tools & Workflows',
-    tags: ['Git & GitHub', 'VS Code', 'Postman', 'Linux / Command Line', 'Azure Data Factory', 'Vercel Deployment'],
+    title: 'Engineering / Tools',
+    tags: ['Git & GitHub', 'VS Code', 'Postman', 'Linux / CLI', 'Vercel Deployment'],
   },
 ];
 
@@ -35,7 +30,7 @@ const Skills: React.FC = () => {
         <div className="section-header reveal">
           <div className="section-label">What I Work With</div>
           <h2 className="section-title">
-            My Technical <span className="gradient-text">Arsenal</span>
+            Technical <span className="gradient-text">Arsenal</span>
           </h2>
         </div>
 

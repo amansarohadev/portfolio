@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
-import portrait from '../assets/portrait.png';
 
 const Hero: React.FC = () => {
   return (
@@ -17,11 +16,11 @@ const Hero: React.FC = () => {
             <span className="line-2"><span className="gradient-text">that scale.</span></span>
           </h1>
 
-          <div className="hero-role">Full-Stack Developer & Database Specialist</div>
+          <div className="hero-role">Backend Engineer · Software Developer</div>
 
           <p className="hero-description">
             I don't just write code — I <strong>obsess over what's under the hood</strong>. 
-            From query execution plans to React component trees, I build applications where 
+            From query execution plans to API architecture, I build backend systems where 
             performance is the architecture, not an afterthought.
           </p>
 
@@ -51,12 +50,52 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="hero-visual">
-          <div className="orbit-ring"><span className="orbit-dot"></span></div>
-          <div className="orbit-ring"><span className="orbit-dot"></span></div>
-          <div className="orbit-ring"><span className="orbit-dot"></span></div>
-          <div className="hero-portrait-wrapper">
-            <div className="portrait-ring"></div>
-            <img src={portrait} alt="Aman — Software Engineer" className="hero-portrait-img" />
+          <div className="hero-code-window">
+            <div className="code-window-header">
+              <div className="code-dots">
+                <span className="code-dot"></span>
+                <span className="code-dot"></span>
+                <span className="code-dot"></span>
+              </div>
+              <span className="code-filename">engineer.ts</span>
+            </div>
+            <div className="code-body">
+              <div className="code-line">
+                <span className="code-ln">1</span>
+                <span className="code-keyword">const</span> <span className="code-var">engineer</span> <span className="code-op">=</span> <span className="code-bracket">{'{'}</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">2</span>
+                <span className="code-indent"></span><span className="code-prop">name</span><span className="code-op">:</span> <span className="code-string">"Aman Saroha"</span><span className="code-op">,</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">3</span>
+                <span className="code-indent"></span><span className="code-prop">role</span><span className="code-op">:</span> <span className="code-string">"Backend Engineer"</span><span className="code-op">,</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">4</span>
+                <span className="code-indent"></span><span className="code-prop">stack</span><span className="code-op">:</span> <span className="code-bracket">[</span><span className="code-string">"Node"</span><span className="code-op">,</span> <span className="code-string">"TS"</span><span className="code-op">,</span> <span className="code-string">"SQL"</span><span className="code-bracket">]</span><span className="code-op">,</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">5</span>
+                <span className="code-indent"></span><span className="code-prop">focus</span><span className="code-op">:</span> <span className="code-string">"APIs & Databases"</span><span className="code-op">,</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">6</span>
+                <span className="code-indent"></span><span className="code-prop">status</span><span className="code-op">:</span> <span className="code-string">"building"</span><span className="code-op">,</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">7</span>
+                <span className="code-bracket">{'}'}</span><span className="code-op">;</span>
+              </div>
+              <div className="code-line code-line-empty">
+                <span className="code-ln">8</span>
+              </div>
+              <div className="code-line">
+                <span className="code-ln">9</span>
+                <span className="code-comment">// clean code · scalable systems</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
