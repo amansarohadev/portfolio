@@ -481,7 +481,7 @@ main { position: relative; z-index: 10; }
 /* Code Window */
 .hero-code-window {
   width: 100%;
-  max-width: 420px;
+  max-width: 460px;
   background: rgba(11, 15, 26, 0.9);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -557,7 +557,13 @@ main { position: relative; z-index: 10; }
   display: flex;
   align-items: center;
   padding: 0 16px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
   transition: background 0.2s var(--ease);
+}
+
+.code-line span {
+  white-space: nowrap;
 }
 
 .code-line:hover {

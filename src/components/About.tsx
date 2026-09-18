@@ -8,50 +8,50 @@ const About: React.FC = () => {
         <div className="section-header reveal">
           <div className="section-label">About Me</div>
           <h2 className="section-title">
-            The Person Behind <span className="gradient-text">The Code</span>
+            The Analyst Behind <span className="gradient-text">The Insights</span>
           </h2>
         </div>
 
         <div className="about-content">
           <div className="about-text reveal">
             <p className="about-intro">
-              I'm a Backend Engineer and Software Developer who obsesses over performance, scalability, and clean architecture. I don't just write code — I build systems that actually work at scale.
+              I'm a Data Analyst and Database Operations Specialist who bridges the gap between complex relational databases and high-impact business decisions.
             </p>
 
             <p>
-              My journey started with a curiosity about how things work under the hood. From API design patterns to database internals, I've always been drawn to understanding the deeper mechanics of technology. This obsession with fundamentals has shaped my approach to engineering — I don't settle for solutions that "just work," I build solutions that work efficiently, reliably, and at scale.
+              My background is anchored in enterprise relational systems. During my 14 months at <strong>HCL Technologies (Oct 2022 – Dec 2023) supporting Microsoft Azure SQL Database</strong>, I diagnosed and resolved real-world database performance bottlenecks, investigated complex query execution plans, and ensured mission-critical data availability for enterprise clients.
             </p>
 
             <p>
-              Currently, I'm focused on building production-grade backend systems using Node.js, Express.js, and PostgreSQL — with clean REST APIs, robust authentication, and well-structured databases. I have deep expertise in database optimization, having worked as an Azure SQL Database Support Engineer where I diagnosed and resolved complex performance issues for enterprise clients.
+              Today, I channel that deep SQL and cloud infrastructure foundation into end-to-end analytics — transforming messy transactional datasets into executive <strong>Power BI dashboards, Advanced Excel financial & operational models, and automated Python (Pandas) ETL workflows</strong> that save hours of manual reporting time.
             </p>
 
             <div className="about-highlights">
               <div className="highlight-item">
-                <div className="highlight-icon">🎯</div>
+                <div className="highlight-icon">📊</div>
                 <div className="highlight-content">
-                  <h4>Problem-First Approach</h4>
+                  <h4>Business Insights</h4>
+                </div>
+              </div>
+
+              <div className="highlight-item">
+                <div className="highlight-icon">🗄️</div>
+                <div className="highlight-content">
+                  <h4>SQL & DB Architecture</h4>
                 </div>
               </div>
 
               <div className="highlight-item">
                 <div className="highlight-icon">⚡</div>
                 <div className="highlight-content">
-                  <h4>Performance Obsessed</h4>
+                  <h4>Automated Reporting</h4>
                 </div>
               </div>
 
               <div className="highlight-item">
-                <div className="highlight-icon">🚀</div>
+                <div className="highlight-icon">☁️</div>
                 <div className="highlight-content">
-                  <h4>Scalability Mindset</h4>
-                </div>
-              </div>
-
-              <div className="highlight-item">
-                <div className="highlight-icon">🔧</div>
-                <div className="highlight-content">
-                  <h4>Clean Code Advocate</h4>
+                  <h4>Azure Certified (AZ-104)</h4>
                 </div>
               </div>
             </div>
@@ -59,7 +59,7 @@ const About: React.FC = () => {
 
           <div className="about-image reveal reveal-delay-2">
             <div className="about-image-wrapper">
-              <img src={realImage} alt="Aman — Software Engineer" className="about-portrait" />
+              <img src={realImage} alt="Aman Saroha — Data Analyst" className="about-portrait" />
               <div className="about-image-bg"></div>
             </div>
           </div>

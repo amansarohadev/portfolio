@@ -2,24 +2,24 @@ import React from 'react';
 
 const skillData = [
   {
-    icon: '💻',
-    title: 'Languages',
-    tags: ['C', 'C++', 'JavaScript (ES6+)', 'TypeScript', 'SQL'],
-  },
-  {
-    icon: '⚙️',
-    title: 'Backend',
-    tags: ['Node.js', 'Express.js', 'REST APIs', 'API Development', 'OAuth 2.0', 'Passport.js', 'Middleware Architecture', 'Authentication'],
+    icon: '📊',
+    title: 'BI & Visual Analytics',
+    tags: ['Microsoft Power BI', 'Advanced Excel (XLOOKUP, Pivots)', 'Tableau', 'Data Visualization', 'DAX Measures', 'Power Query', 'Executive KPI Dashboards'],
   },
   {
     icon: '🛢️',
-    title: 'Databases',
-    tags: ['PostgreSQL', 'MySQL', 'SQL Server', 'Azure SQL Database', 'Query Optimization', 'Indexing Strategies', 'CTEs & Window Functions', 'DMVs & Query Store'],
+    title: 'Databases & SQL',
+    tags: ['SQL', 'T-SQL', 'Microsoft Azure SQL Database', 'MySQL', 'PostgreSQL', 'Window Functions', 'CTEs & Subqueries', 'Query Optimization & Indexing'],
   },
   {
-    icon: '🛠️',
-    title: 'Engineering / Tools',
-    tags: ['Git & GitHub', 'VS Code', 'Postman', 'Linux / CLI', 'Vercel Deployment'],
+    icon: '🐍',
+    title: 'Programming & Automation',
+    tags: ['Python', 'Pandas', 'NumPy', 'SQLAlchemy', 'Extract, Transform, Load (ETL)', 'Web Scraping (BeautifulSoup)', 'Data Cleaning & Structuring'],
+  },
+  {
+    icon: '☁️',
+    title: 'Cloud Platforms & Tools',
+    tags: ['Microsoft Azure (AZ-104)', 'Azure Fundamentals (AZ-900)', 'Amazon Web Services (AWS)', 'Databricks', 'Git & GitHub', 'Linux CLI'],
   },
 ];
 

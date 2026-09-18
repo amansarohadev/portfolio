@@ -7,12 +7,12 @@ const Contact: React.FC = () => {
       <div className="contact-inner reveal">
         <div className="section-label" style={{ justifyContent: 'center' }}>Get In Touch</div>
         <h2>
-          Let's build something<br />
-          <span className="gradient-text">extraordinary.</span>
+          Let's unlock value from<br />
+          <span className="gradient-text">your business data.</span>
         </h2>
         <p>
-          Whether you need a backend engineer, a database specialist, or someone who writes
-          clean, scalable code — I'm always open to discussing new opportunities and interesting projects.
+          Whether you need a Data Analyst, a Database Operations Specialist, or someone who automates
+          complex reporting workflows and builds intuitive dashboards — I'm ready to bring immediate value to your team.
         </p>
         <a href="mailto:amansarohadev@gmail.com" className="contact-email">
           <Mail size={18} />
@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
           <a href="https://github.com/amansarohadev" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://instagram.com/amansaroha98" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
-        <p>Designed & Built by Aman · {new Date().getFullYear()}</p>
+        <p>Designed & Built by Aman Saroha · {new Date().getFullYear()}</p>
       </footer>
     </section>
   );

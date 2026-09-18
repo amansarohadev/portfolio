@@ -3,63 +3,63 @@ import { ExternalLink } from 'lucide-react';
 
 const projectData = [
   {
-    title: 'Backend API & Web Engineering Hub',
-    context: 'Backend-driven web applications with REST API development, server-side routing, and database integration.',
-    challenge: 'Designing scalable API architectures, handling authentication flows, and structuring modular backend codebases.',
-    approach: 'Built using Node.js and Express.js with structured REST API routes, middleware patterns, and clean separation of concerns.',
-    solution: 'Production-ready backend modules featuring RESTful endpoints, dynamic data handling, and secure API patterns.',
-    results: 'Solid backend architecture demonstrating API design, route handling, middleware composition, and server-side logic.',
-    tech: ['Node.js', 'Express.js', 'REST APIs', 'JavaScript (ES6+)'],
+    title: 'Vendor Performance Analysis & Retail Analytics Pipeline',
+    context: 'End-to-end retail business analytics pipeline evaluating vendor reliability, delivery SLAs, and profit margins across a 2GB+ transactional dataset.',
+    challenge: 'Handling multi-million row transactional files, identifying vendor defect trends, and generating actionable procurement insights.',
+    approach: 'Engineered automated ETL pipelines in Python using SQLAlchemy and Pandas, computed statistical metrics, and built interactive Power BI drill-down reports.',
+    solution: 'Integrated analytics solution tracking fulfillment rates, return frequencies, and pricing discrepancies across supply chain vendors.',
+    results: 'Surfaced critical vendor SLA delays and delivered executive dashboards that streamlined procurement and inventory decision-making.',
+    tech: ['Python', 'SQLAlchemy', 'Power BI', 'Pandas', 'Statistical Analysis', 'ETL'],
     links: {
-      github: 'https://github.com/amansarohadev/full-stack-developer'
+      github: 'https://github.com/amansarohadev/Vendor-Performance-Analysis'
     }
   },
   {
-    title: 'SQL Mastery & Database Engineering Portfolio',
-    context: 'Enterprise database engineering focusing on complex data modeling, query architecture, and performance optimization.',
-    challenge: 'Solving high-workload database bottlenecks, unoptimized multi-table JOINs, and complex data aggregations.',
-    approach: 'Engineered advanced T-SQL, PostgreSQL, and MySQL queries utilizing CTEs, Window Functions, and strategic indexing.',
-    solution: 'Comprehensive SQL engineering repository tackling real-world business scenarios and query execution optimization.',
-    results: 'Drastically improved query execution times, reduced CPU/IO overhead, and clean relational database logic.',
-    tech: ['T-SQL', 'PostgreSQL', 'MySQL', 'CTEs', 'Window Functions', 'Indexing'],
+    title: 'SQL Analytics & Query Optimization Portfolio',
+    context: 'Comprehensive analytical SQL repository addressing complex business scenarios, data warehousing logic, and relational transformations.',
+    challenge: 'Solving multi-table joining bottlenecks, computing running totals, rolling averages, and optimizing slow-running business queries.',
+    approach: 'Engineered advanced T-SQL, PostgreSQL, and MySQL queries utilizing recursive CTEs, window functions (ROW_NUMBER, DENSE_RANK, LEAD/LAG), and indexing.',
+    solution: 'Structured collection of production-grade business queries tailored for reporting layers and relational data models.',
+    results: 'Drastically reduced query execution times, eliminated table scan overhead, and simplified complex analytical reporting logic.',
+    tech: ['T-SQL', 'PostgreSQL', 'MySQL', 'Window Functions', 'CTEs', 'Query Tuning'],
     links: {
       github: 'https://github.com/amansarohadev/sql-mastery-portfolio'
     }
   },
   {
-    title: 'Relational HR Database Architecture',
-    context: 'Enterprise-grade relational database design and analytical reporting schema.',
-    challenge: 'Designing normalized relational tables, implementing efficient indexes, and optimizing analytical queries for dashboard consumption.',
-    approach: 'Modeled relational schemas from scratch in MySQL, incorporating foreign key constraints, analytical views, and CTEs.',
-    solution: 'High-performance HR relational system capable of handling complex employee data queries seamlessly.',
-    results: 'Achieved optimal schema normalization (3NF) with optimized index scanning for instant data retrieval.',
-    tech: ['MySQL', 'Database Design', 'Indexing', 'Views', 'SQL'],
+    title: 'HR Relational Analytics & Attrition System',
+    context: 'Enterprise-grade relational database design, workforce attrition analysis, and reporting schema.',
+    challenge: 'Designing normalized relational tables, computing department-level turnover rates, and optimizing analytical queries for dashboard consumption.',
+    approach: 'Modeled relational schemas from scratch in MySQL (3NF), created analytical views, and structured aggregation queries for KPI tracking.',
+    solution: 'High-performance HR data architecture facilitating rapid querying of compensation, tenure, and department performance metrics.',
+    results: 'Achieved sub-second query response times with optimized indexing, powering visual dashboards for HR leadership.',
+    tech: ['MySQL', 'Relational Design', 'Indexing', 'Views', 'Aggregations'],
     links: {
       github: 'https://github.com/amansarohadev/hr-analytics-mysql'
     }
   },
   {
-    title: 'Web Data Scraping & Automation Pipeline',
-    context: 'Automated data extraction pipeline to harvest unstructured web data into structured datasets.',
-    challenge: 'Handling dynamic HTML changes, request throttling, rate limiting, and broken scraping connections.',
-    approach: 'Built resilient scrapers using Python, BeautifulSoup, and Pandas with custom exception handling and request delays.',
-    solution: 'End-to-end data pipeline that extracts, parses, cleans, and exports structured datasets automatically.',
-    results: 'Automated 100% of data extraction tasks with high fault tolerance and clean tabular outputs.',
-    tech: ['Python', 'BeautifulSoup', 'Requests', 'Pandas', 'Automation'],
+    title: 'Automated Web Data Extraction & ETL Pipeline',
+    context: 'Automated data collection and ingestion engine harvesting market prices and product data into structured tabular datasets.',
+    challenge: 'Extracting data across dynamic web pages, managing rate limiting and pagination, and ensuring clean schema outputs.',
+    approach: 'Built resilient Python scrapers using BeautifulSoup, Requests, and Pandas with custom error handling, throttling, and automated CSV structuring.',
+    solution: 'End-to-end data pipeline that extracts, parses, cleans, and exports structured datasets automatically for analysis.',
+    results: 'Automated 100% of repetitive data gathering tasks with zero downtime, producing clean, structured feeds ready for analysis.',
+    tech: ['Python', 'BeautifulSoup', 'Requests', 'Pandas', 'ETL Automation'],
     links: {
       github: 'https://github.com/amansarohadev/web-scraping'
     }
   },
   {
-    title: 'Discover India Web Platform',
-    context: 'A structured web application showcasing the culture, history, and geography of India through clean semantic architecture.',
-    challenge: 'Building a performant, responsive content platform from scratch without external frameworks or CSS libraries.',
-    approach: 'Engineered from the ground up using HTML5 semantic markup, custom CSS3 architecture, and structured content organization.',
-    solution: 'Content-driven platform with clean code structure, cross-device compatibility, and optimized load performance.',
-    results: 'Fully custom codebase with zero dependencies, fast page loads, and maintainable content architecture.',
-    tech: ['HTML5', 'CSS3', 'Responsive Design'],
+    title: 'Executive Sales & Operations Dashboard',
+    context: 'Dynamic business intelligence dashboard modeling global sales trends, regional product margins, and customer demographic segments.',
+    challenge: 'Consolidating dirty multi-year transaction data into an automated, interactive reporting tool without performance lag.',
+    approach: 'Utilized Advanced Excel formulas (XLOOKUP, SUMIFS), Power Query data normalization, dynamic pivot tables, and interactive slicers.',
+    solution: 'User-friendly executive reporting dashboard delivering real-time visibility into revenue targets, profit margins, and volume fluctuations.',
+    results: 'Cut monthly reporting compilation time by 80% and enabled regional managers to self-serve sliceable performance KPIs.',
+    tech: ['Microsoft Excel', 'XLOOKUP', 'Pivot Tables', 'Power Query', 'Power BI'],
     links: {
-      github: 'https://github.com/amansarohadev/discover-india'
+      github: 'https://github.com/amansarohadev'
     }
   }
 ];
@@ -71,7 +71,7 @@ const Projects: React.FC = () => {
         <div className="section-header reveal">
           <div className="section-label">What I've Built</div>
           <h2 className="section-title">
-            Featured <span className="gradient-text">Engineering Projects</span>
+            Featured <span className="gradient-text">Analytics Projects</span>
           </h2>
         </div>
 
